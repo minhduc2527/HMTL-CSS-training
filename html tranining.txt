@@ -1,0 +1,22 @@
+11/05/2020
+- Hi?u bi?t v? dev tool: b?m phim F12 ho?c chu?t ph?i man hinh r?i ch?n inspect (in google chrome)
+- HTML: Hypertext markup language dung ?? xay d?ng len trang web
+- CSS: dung ?? trang tri trang web.
+- Cai ??t visual studio code va add ruler extension ?? co th? ?o ???c kich th??c c?a elements.
+- H?c c?u truc file html (doctype, html, head, body, meta)
+- H?c vi?t comment trong html
+- H?c cac th? html thong d?ng  
+        1. h1 - h6 
+        2. p -paragraph    
+        3. img  - image 
+        4. a -anchor link lien k?t
+        5. ul, li  ul la d?u ch?m, ol la s?  
+        6. table - b?ng
+        7.  input type: radio la hinh tron 
+	checkbox la hinh vuong 
+        	radio+ name ch? ?c ch?n 1
+        8. button  nut b?m	   
+        9. div - chia thanh kh?i
+- H?c v? attribute c?a HTML
+- H?c v? CSS c?a HTML( external, internal , inline)
+- H?c them v? ID va Class trong CSS 
