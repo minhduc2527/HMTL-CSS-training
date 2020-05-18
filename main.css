@@ -360,6 +360,8 @@ margin: 0 8px;
     height: 40px;
     flex: 1;
     border-radius: 2px;
+    display: flex;
+    align-items: center;
 }
 .header_cart{
     width: 150px;
@@ -368,6 +370,33 @@ margin: 0 8px;
 }
 .header_cart-icon{
     color: var(--white-color);
-    font-size: 2.6rem;
+    font-size: 2.6rem;  
     margin-top: 6px;
+}
+.header_search-input{
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    color: var(--text-color);
+    padding: 0 16px;
+    border-radius: 3px;
+}
+.header_search-select{
+    border-left: 1px solid #cccccc;
+    padding-left: 16px;
+}
+.header_search-select-label{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    text-align: center;
+    margin: auto;
+}
+.header_search-select-icon{
+    font-size: 1.4rem;
+    color: #4a4a4a;
+    margin: 0 16px 0 8px ;
+    position: relative;
+    top: 1px;
 }
