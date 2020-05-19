@@ -17,7 +17,7 @@
 
                 <nav class="header_navbar">    
                     <ul class="header_navbar-list">
-                        <li class="header_navbar-item header_navbar-item-has-qr header_navbar-item-separate">vào cửa hàng trên ứng dụng f8shop
+                        <li class="header_navbar-item header_navbar-item-has-qr header_navbar-item-separate">vào cửa hàng trên ứng dụng 
                         
                             <!-- header qr-->
                             <div class="header_qr">
@@ -55,6 +55,7 @@
                                         <h3>Thông báo mới nhận</h3>
                                     </header>
                                     <ul class="header_notify-list"> 
+                                        
                                     <li class="header_notify-item header_notify-item--view">
                                         <a href="" class="header_notify-link">
                                             
@@ -93,7 +94,7 @@
                         </li>
 
 
-                        <li class="header_navbar-item"> </li>
+                        <li class="header_navbar-item"> 
                         <a href="" class="header_navbar-item-link">
                             <i class="header_navbar-icon far fa-question-circle"></i>
                          Trợ giúp
@@ -101,6 +102,7 @@
                         <li class="header_navbar-item header_navbar-item-strong header_navbar-item-separate ">Đăng ký</li>
                      
                         <li class="header_navbar-item header_navbar-item-strong">Đăng nhập</li>
+                    </li>
                     </ul>
                 </nav>
                 <!-- header with searching-->
@@ -114,17 +116,126 @@
                             </g>
                         </svg>
                     </div>
-                    <div class="header_search">
-                        <input type="text" class="header_search-input" placeholder="Nhập để tìm kiếm thông tin sản phẩm" >
+                    <div class="header_search"> 
+                        <div class="header_search-input-wrap">
+                            <input type="text" class="header_search-input" placeholder="Nhập để tìm kiếm thông tin sản phẩm" >
+
+
+                            <!-- Searching history-->
+                            <div class="header_search-history">
+                                <h3 class="header_search-history-heading">Lịch sử tìm kiếm</h3>
+                                <ul class="header_search-history-list">
+                                    <li class="header_search-history-item">
+                                        <a href="">PhucIGL from Astralis</a>
+                                    </li>
+                                    <li class="header_search-history-item">
+                                        <a href="">TungLurker from Fazeclan</a>
+                                    </li>
+                                    <li class="header_search-history-item">
+                                        <a href="">Mr.bam hip hop boy from National circus</a>
+                                    </li>
+                                    <li class="header_search-history-item">
+                                        <a href="">Huydz Awper from Yen Vien professional team</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
                         <div class="header_search-select">
                             <span class="header_search-select-label">Trong shop</span>
                             <i class="header_search-select-icon fas fa-chevron-down"></i>
+                            <ul class="header_search-option">
+                                <li class="header_search-option-item header_search-option-item-active">
+                                    <span>Trong Shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                                <li class="header_search-option-item">
+                                    <span>Ngoài Shop</span>
+                                    <i class="fas fa-check"></i>
+                                </li>
+                            </ul>
                         </div>
+                        <button class="header_search-btn">
+                            <i class="header_search-btn-icon fas fa-search"></i> 
+                        </button>
                     </div>
                     <div class="header_cart">
-                        <i class="header_cart-icon fas fa-shopping-cart"></i>
-
-                    </div>
+                        <div class="header_cart-wrap">
+                            <i class="header_cart-icon fas fa-shopping-cart"></i>
+                            <span class="header_cart-notice">3</span>
+                                    <!-- no cart:header_cart-list-no-cart-->
+                            <div class="header_cart-list ">
+                                <img src="./Image/NOCART.png" alt="" class="header_cart-no-cart-img">
+                                <span class="header_cart-list-no-cart-msg"> 
+                                    No cart buy something pls 
+                                </span>
+                                <h4 class="header_cart-heading"> Sản phẩm đã thêm</h4>
+                                <ul class="header_cart-list-item">
+                                    <!-- Cart item-->
+                                    <li class="header_cart-item">
+                                        <img src="https://1.bp.blogspot.com/-iAqPPoDDfFs/XaotH-C8ffI/AAAAAAAAB5w/fyWnlTh9byYsXAN2xWhPcg-0qawruu9-gCLcBGAsYHQ/s0/awp.png" alt="" class="header_cart-img">
+                                        <div class="header_cart-item-info">
+                                            <div class="header_cart-item-head">
+                                                <h5 class="header_cart-item-name">Huydz</h5>
+                                                <div class="header_cart-item-price-wrap">
+                                                    <span class="header_cart-item-price">2.000.000đ</span>
+                                                    <span class="header_cart-item-multiply">x</span>
+                                                    <span class="header_cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header_cart-item-body">
+                                                <span class="header_cart-item-description">
+                                                    Awper số 1 Yên Viên. Bắn cái là ngấy luôn
+                                                </span>
+                                                <span class="header_cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header_cart-item">
+                                        <img src="https://ssdb.cs.money/wiki_8Avi4UH_preview.png" alt="" class="header_cart-img">
+                                        <div class="header_cart-item-info">
+                                            <div class="header_cart-item-head">
+                                                <h5 class="header_cart-item-name">PhucIGL</h5>
+                                                <div class="header_cart-item-price-wrap">
+                                                    <span class="header_cart-item-price">2.000.000đ</span>
+                                                    <span class="header_cart-item-multiply">x</span>
+                                                    <span class="header_cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header_cart-item-body">
+                                                <span class="header_cart-item-description">
+                                                    Chỉ cho bạn những bạn những tactic như fake a fake b đánh a rồi chửi huy đới
+                                                </span>
+                                                <span class="header_cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header_cart-item">
+                                        <img src="https://steamuserimages-a.akamaihd.net/ugc/954083064339757972/E47F8B93C520BD8EEBAA0C1589A670E91A3990FA/" alt="" class="header_cart-img">
+                                        <div class="header_cart-item-info">
+                                            <div class="header_cart-item-head">
+                                                <h5 class="header_cart-item-name">Ducbeo</h5>
+                                                <div class="header_cart-item-price-wrap">
+                                                    <span class="header_cart-item-price">2.000.000đ</span>
+                                                    <span class="header_cart-item-multiply">x</span>
+                                                    <span class="header_cart-item-qnt">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header_cart-item-body">
+                                                <span class="header_cart-item-description">
+                                                    Hip hop uyển chuyển trên từng bước di chuyển. 
+                                                </span>
+                                                <span class="header_cart-item-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <button class="header_cart-view-cart btn btn-primary">
+                                    Xem giỏ hàng
+                                </button>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
             </div>
             
@@ -141,8 +252,7 @@
         <div class="modal_overlay"></div>
         <div class="modal_body"> -->
             
-
-            <!-- Register  form-->
+<!--Register  form --> 
             <!-- <div class="auth-form">
                 <div class="auth-form_container">
                     <div class="auth-form_header">
@@ -188,10 +298,10 @@
                         </span>
                     </a>    
                 </div>
-            </div> -->
+            </div> --> -->
             
              <!-- Log in  form-->
-             <!-- <div class="auth-form">
+              <!-- <div class="auth-form"> 
                 <div class="auth-form_container">
                     <div class="auth-form_header">
                         <h3 class="auth-form_heading">Đăng nhập</h3>
@@ -234,9 +344,9 @@
                         </span>
                     </a>    
                 </div>
-            </div>
+            </div> -->
 
-        </div> -->
+        </div> 
     </div>
 </body>
 </html>
