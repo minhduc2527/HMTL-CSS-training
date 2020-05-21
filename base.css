@@ -7,6 +7,7 @@
     --border-color: #dbdbdb;
     --navbar-height:34px;
     --header-height: 120px;
+    --star-gold-color:#FFCE3E;
     --header-with-search-height:calc(var(--header-height) - var(--navbar-height));
 }
 *{
@@ -19,12 +20,6 @@ html{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-/* Responsive */
-
-
-
-
-
 .grid{
     width: 1200px;
     max-width: 100%;
@@ -36,18 +31,23 @@ html{
 .grid_row{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -12px;
-    margin-right: -12px;
+    margin-left: -5px;
+    margin-right: -5px;
 }
 .grid_column-2{
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
     width: 16.6667%;
 }
-.grid_column-8{
-    padding-left: 12px;
-    padding-right: 12px;
-    width: 66.6667%;
+.grid_column-2-4{
+      padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+.grid_column-10{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3334%;
 }
 @keyframes fadeIn {
     from {
@@ -101,13 +101,14 @@ html{
     outline: none;
     cursor: pointer;
     line-height: 1.6rem;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
 }
 .btn.btn-normal:hover{
     background-color: rgba(0, 0, 0, 0.4);
 }
+
 .btn.btn-primary{
 background-color: var(--primary-color) ;
 color: var(--white-color);
@@ -116,4 +117,50 @@ color: var(--white-color);
     height: 33px;
     font-size: 12px;
     padding: 0 8px;
+}
+.select-input{
+    height: 34px;
+    padding: 0 12px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.select-input:hover .select-input_list{
+    display: block;
+}
+.select-input_label{
+    font-size: 1.4rem;
+}
+.select-input_icon{
+font-size: 1.4rem;
+    color: #4a4a4a;
+    
+    position: relative;
+    top: 1px;
+}
+.select-input_list{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    list-style: none;
+    padding: 8px 16px;
+    display: none;
+}
+.select-input_link{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    text-decoration: none;
+    display: block;
+    padding: 4px 0;
+}
+.select-input_link:hover{
+    color: var(--primary-color);
 }
