@@ -153,6 +153,7 @@ font-size: 1.4rem;
     list-style: none;
     padding: 8px 16px;
     display: none;
+    z-index: 1;
 }
 .select-input_link{
     font-size: 1.4rem;
@@ -163,4 +164,35 @@ font-size: 1.4rem;
 }
 .select-input_link:hover{
     color: var(--primary-color);
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.pagination-item{
+    margin: 0 8px;
+}
+.pagination-item-active .pagination-link{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+.pagination-item-active .pagination-link:hover{
+    background-color: rgb(226, 112, 89);
+}
+.pagination-link{
+    display: block;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #939393;
+    min-width: 40px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+}
+.pagination_item-icon{
+
 }
