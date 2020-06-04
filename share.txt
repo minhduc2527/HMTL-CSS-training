@@ -5,4 +5,8 @@ https://classroom.udacity.com/courses/ud171
 https://www.sololearn.com/Play/JavaScript/#
 https://github.com/uber/react-vis
 https://react.rocks/tag/FullStack?show=40
+https://open.appacademy.io/learn/full-stack-online/mern-stack-curriculum/in-person-course-guidelines
 https://www.udemy.com/course/full-stack-javascript/?utm_source=adwords&utm_medium=udemyads&utm_campaign=JavaScript_v.PROF_la.EN_cc.ROW_ti.6368&utm_content=deal4584&utm_term=_._ag_85479007634_._ad_437497336272_._kw__._de_c_._dm__._pl__._ti_dsa-774930043609_._li_1028580_._pd__._&matchtype=b&gclid=CjwKCAjwztL2BRATEiwAvnALcpO0cWbX76c4aT8EzWeN6aVQoUP7HTzPPLf1Qyj74bnDLNkYQSIRTBoCk2IQAvD_BwE
+https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044
+https://www.rithmschool.com/courses#advanced-javascript
+https://www.codehub.vn/Xay-Dung-Ung-Dung-React-Voi-MERN-Stack-MongoDB-Express-js-ReactJS-va-Node-js/Hello-World
